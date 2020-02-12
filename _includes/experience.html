@@ -6,13 +6,13 @@
             <h3>{{ company.name }}</h3>
             <h4>{{ company.designation }}</h4>
             <p>
-                <ol>
+                <ul>
                     {% for description in company.descriptions %}
                     <li>
                         {{ description }}
                     </li>
                     {% endfor %}
-                </ol>
+                </ul>
             </p>
         </div>
     {% endfor %}

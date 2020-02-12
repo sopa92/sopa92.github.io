@@ -1,20 +1,21 @@
-- name: PayTM Insider
-  designation: Full Stack Engineer
-  date: September 2018 – July 2019
+- name: Programmer
+  designation:  Plaisio Computers S.A, Greece
+  date: Nov 2015 – Jun 2019
   descriptions: 
-    - <b>Technologies :</b> Laravel, MySQL, Docker, Amazon Web Services, Kubernetes, Redis
+    - <b>Technologies :</b> C#, HTML, CSS, Javascript, React, SQL, MongoDB, Biztalk, Sitecore, GitHub, Jira
     - Worked as a Full Stack Engineer, to revamp existing accreditation system to improve it's security, added features such as permission management, barcode management, reports, notifications and communications to existing system.
     - Developed integration, UI and unit test cases increasing code coverage from 0% to 82%.
     - Decreased multiple API response time from 2-10s to < 500ms. Converted various synchronous jobs to asynchronous for better throughput.
-- name: IDfy
-  designation: Software Engineer 2
-  date: October 2017 – September 2018
+- name: Web Developer
+  designation: Aboutnet, Greece
+  date: Jul 2014 – Jul 2015,           2 months internship included
   descriptions:
+    - <b>Technologies :</b> HTML, CSS, Javascript, Photoshop, Joomla, OpenCart
     - Complete ownership of application for tracking address verification task across various disciplines that helps our in-house operations team to create, update and manage leads. Expanded existing functionality and re-factored existing code to handle higher volumes and have better user experience
     - Designed, developed and shipped TDD web application microservice to maintain SMS and email communication for all in-house projects
-- name: Newgen Software Technologies
-  designation: Software Engineer
-  date: August 2016 – August 2017
+- name: Web Content Administrator
+  designation: European Association on Signal Processing, Greece
+  date: Mar 2014 – May 2016
   descriptions:
     - <a href="http://www.newgensoft.com/">Newgen Software</a> is a global provider of content and communication management solutions
     - <b>Technologies :</b> Android, jQuery UI, Bootstrap
