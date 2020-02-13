@@ -6,7 +6,9 @@
         <span class="education-date">{{ college.year }}</span>
         <h4>{{ college.name }}</h4>
         <p>
+            {% if college.grade != null %}
             <strong>GPA</strong> : {{ college.grade }}  
+            {% endif %}
             {% if college.major != null %}
                 <br/> <strong>Major</strong> : {{ college.major }} 
             {% endif %}            

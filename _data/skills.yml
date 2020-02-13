@@ -1,16 +1,22 @@
-- name: JavaScript
-- name: Laravel
-- name: PHP
-- name: Ruby
-- name: Ruby on Rails
-- name: Docker
-- name: C
-- name: CSS
-- name: JQuery
-- name: Bootstrap
-- name: Linux
-- name: Git
-- name: Redis
-- name: Kubernetes
-- name: Amazon Web Services
-- name: Google Cloud Platform
+- name: C#
+- name: C++
+- name: Unity
+- name: Unreal Engine
+- name: ASP.NET
+- name: HTML
+- name: CSS-Bootstrap
+- name: Javascript
+- name: jQuery
+- name: React
+- name: SQL
+- name: MongoDB
+- name: GitHub
+- name: Biztalk
+- name: Sitecore
+- name: Jira
+- name: Microsoft Visual Studio
+- name: Xamarin
+- name: Photoshop
+- name: Joomla
+- name: OpenCart
+

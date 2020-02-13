@@ -494,7 +494,7 @@ footer {
     }
 
     p {
-        color: $text;
+        color: $border;
         margin: 0;
         font-size: 19px;
     }
@@ -692,6 +692,13 @@ footer {
 
 .project-image {
     float: left;
+    width: 300px;
+    overflow: hidden;
+    img {
+        width: 300px;
+        padding: 37.5px 0;
+        background: #000;
+    }
 }
 
 .project-info {
@@ -711,7 +718,10 @@ footer {
     p {
         color: $text;
         margin: 0 0 15px 0;
-        font-size: 0.9em;
+        font-size: 0.9em;    
+        text-align: justify;
+        padding: 0px 25px;
+        
     }
 }
 
