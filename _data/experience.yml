@@ -2,22 +2,26 @@
   designation:  Plaisio Computers S.A, Greece
   date: Nov 2015 – Jun 2019
   descriptions: 
-    - <b>Technologies :</b> C#, HTML, CSS, Javascript, React, SQL, MongoDB, Biztalk, Sitecore, GitHub, Jira
-    - Worked as a Full Stack Engineer, to revamp existing accreditation system to improve it's security, added features such as permission management, barcode management, reports, notifications and communications to existing system.
-    - Developed integration, UI and unit test cases increasing code coverage from 0% to 82%.
-    - Decreased multiple API response time from 2-10s to < 500ms. Converted various synchronous jobs to asynchronous for better throughput.
+    - <b>Technologies :</b> C#, ASP.NET, HTML, CSS, Javascript, jQuery, React, Gulp, Yarn, SQL, MongoDB, Biztalk, Sitecore, GitHub, Jira, Microsoft Visual Studio, Xamarin
+    - Developing software applications practicing Agile methodologies
+    - Administrating application &amp; database servers
+    - Monitoring, maintaining and upgrading websites (www.plaisio.gr, www.plaisiopro.gr, www.buldoza.gr)
+    - Setting up third-party tracking code on the aforementioned websites (e.g. Google Analytics, Google Tag Manager)
+    - Developing and maintaining communication between web-applications and SAP
+    - Researching for upcoming technology trends and new e-commerce solutions
+    - Researching for optimization, performance, scalability and reliability of web applications
 - name: Web Developer
   designation: Aboutnet, Greece
-  date: Jul 2014 – Jul 2015,           2 months internship included
+  date: Jul 2014 – Jul 2015<br>2 months internship incl.
   descriptions:
-    - <b>Technologies :</b> HTML, CSS, Javascript, Photoshop, Joomla, OpenCart
-    - Complete ownership of application for tracking address verification task across various disciplines that helps our in-house operations team to create, update and manage leads. Expanded existing functionality and re-factored existing code to handle higher volumes and have better user experience
-    - Designed, developed and shipped TDD web application microservice to maintain SMS and email communication for all in-house projects
+    - <b>Technologies :</b> HTML, CSS, Bootstrap, Javascript, Photoshop, Joomla, OpenCart
+    - Developing responsive websites (Joomla and OpenCart)
+    - Tutoring customers-clients on their websites&apos; administration
+    - Administrating database and researching on Seblod kit
 - name: Web Content Administrator
-  designation: European Association on Signal Processing, Greece
+  designation: European Association on Signal Processing, Remote
   date: Mar 2014 – May 2016
   descriptions:
-    - <a href="http://www.newgensoft.com/">Newgen Software</a> is a global provider of content and communication management solutions
-    - <b>Technologies :</b> Android, jQuery UI, Bootstrap
-    - Worked on enterprise grade mobile capture application for <a href="http://www.indusind.com/">IndusInd Bank Limited</a> which resulted into <u><b>reduced TAT</b></u> for Account Opening process from <u><b>3-4 days to 10 mins</b></u>.
-    - <u><b>More than 200+</b></u> digital accounts being sourced <u><b>daily</b></u> using tablet.
+    - <b>Technologies :</b> Joomla, HTML, CSS
+    - Updating website content (www.eurasip.org)
+    - Redesigning the aforementioned website 

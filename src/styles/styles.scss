@@ -35,8 +35,11 @@
 // Define base and accent colors
 $base-color: #00ADB5;
 $base-color-1: #d44343;
+$base-color-2: #d15d6b;
+$base-color-3: #a12933;
 $base-color-hover: darken($base-color, 10%);
 $base-color-hover-1: darken($base-color-1, 10%);
+$base-color-hover-2: darken($base-color-2, 10%);
 
 // Define background colors
 $background: #222831;
@@ -170,7 +173,7 @@ header {
     a {
         display: block;
         color: $base-color;
-        padding: 10px;
+        padding: 10px 25px;
 
         &:hover {
             color: $base-color-hover;
@@ -196,8 +199,20 @@ header {
 }
 
 #menu {
+    background: #d15d6b;
     &.active {
         display: block;
+    }
+    li {
+        a{
+            color: #36f6ff;
+            &:hover {
+                font-weight: 600;
+                color: #393e46!important;
+                background: none;
+                border-radius: 0;
+            }
+        }
     }
 }
 
@@ -242,12 +257,13 @@ footer {
 
 .me {
     display:block;
-    width: 25%;
+    width: 200px;
     height: 25%;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
+    box-shadow: black 0px 4px 18px;
 }
 
 .copyright {
@@ -306,13 +322,15 @@ footer {
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
-    padding: 15px 25px;
-    border: 3px solid #fff;
-    border-radius: 30px;
+    padding: 9px 25px;
+    border: 1px solid #d15d6b;
+    border-radius: 14px;
+    box-shadow: black 0px 2px 18px;
+    background: $base-color-3;
     @include transition();
 
     &:hover {
-        color: $base-color;
+        color: $base-color-3;
         background: #fff;
         text-decoration: none;
     }
@@ -343,6 +361,9 @@ footer {
         right: 0;
         margin: 0 auto;
         background: $base-color;
+    }
+    i.fa{
+        padding: 5px 10px;
     }
 }
 
@@ -379,6 +400,7 @@ footer {
     }
 
     h1 {
+        text-shadow: black 0 7px 11px;
         color: #fff;
         font-weight: 900;
         font-size: 3em;
@@ -387,7 +409,8 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        text-shadow:#fff 0 0px 15px;
+        color: lighten($base-color-3, 1%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -409,7 +432,8 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover-1, 0.85);
+    /*background: rgba($base-color-hover-1, 0.85);*/
+    background: rgba($base-color-hover-2, 0.22);
     z-index: 1;
 }
 
@@ -555,7 +579,6 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
     margin-bottom: 30px;
 }
 
@@ -828,12 +851,16 @@ footer {
 
 // Medium Devices
 @media only screen and (max-width : 992px) {
-
+    .me {
+        width: 25%;
+        height: 25%;
+    }
     #lead {
         height: auto;
         min-height: auto;
         max-height: auto;
         padding: 100px 15px;
+        background-size: cover;
     }
 
     #lead-content {

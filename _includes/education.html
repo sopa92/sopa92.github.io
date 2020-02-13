@@ -1,12 +1,28 @@
 <div id="education">
-    <h2 class="heading">Education</h2>
+    <h2 class="heading">Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h2>
     {% for college in site.data.education %}
     <div class="education-block">
-        <h3>{{ college.name }}</h3>
+        <h3>{{ college.specialization }}</h3>
         <span class="education-date">{{ college.year }}</span>
-        <h4>{{ college.specialization }}</h4>
+        <h4>{{ college.name }}</h4>
         <p>
-            {{ college.grade }}
+            <strong>GPA</strong> : {{ college.grade }}  
+            {% if college.major != null %}
+                <br/> <strong>Major</strong> : {{ college.major }} 
+            {% endif %}            
+            {% if college.thesis != null %}
+                <br/> <strong>Thesis</strong> : {{ college.thesis }}
+            {% endif %}
+        </p>
+        <p>
+            <strong>Related courses</strong> : 
+            <ul>
+                {% for course in college.courses %}
+                <li>
+                    {{ course }}
+                </li>
+                {% endfor %}
+            </ul>
         </p>
     </div>
     {% endfor %}
