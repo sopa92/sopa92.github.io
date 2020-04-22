@@ -11,9 +11,11 @@
 - name: SQL
 - name: MongoDB
 - name: GitHub
+- name: Perforce
 - name: Biztalk
 - name: Sitecore
 - name: Jira
+- name: Trello
 - name: Microsoft Visual Studio
 - name: Xamarin
 - name: Photoshop
