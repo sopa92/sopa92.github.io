@@ -1,6 +1,13 @@
+- name: Game Programmer
+  designation:  Red Kite Games Ltd., UK
+  date: Sep 2020 – Present
+  descriptions: 
+    - <b>Technologies :</b> C++, Perforce, Azure DevOps, Microsoft Visual Studio
+    - Developing games practicing Agile methodologies
+    - Porting games in consoles and streaming platforms
 - name: Unity Developer
   designation:  Nosebleed Interactive Ltd., UK - Work Placement
-  date: Apr 2020 – Present
+  date: Apr 2020 – Aug 2020
   descriptions: 
     - <b>Technologies :</b> C#, Unity, Perforce, Trello, Microsoft Visual Studio
     - Developing games practicing Agile methodologies
