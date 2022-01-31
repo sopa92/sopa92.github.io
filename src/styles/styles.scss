@@ -33,24 +33,26 @@
 */
 
 // Define base and accent colors
-$base-color: #00ADB5;
+$base-color: #469399;
 $base-color-1: #d44343;
 $base-color-2: #d15d6b;
-$base-color-3: #a12933;
+$base-color-3: #ac7473;
 $base-color-hover: darken($base-color, 10%);
 $base-color-hover-1: darken($base-color-1, 10%);
 $base-color-hover-2: darken($base-color-2, 10%);
 
 // Define background colors
 $background: #222831;
-$background-alt: #393E46;
+$background-alt: #3b484e;
 
 // Define border colors
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #FF2E63;
+$headingLight: #e7c9a5;
+$headingDark: #3b484e;
 $text: #393E46;
+$textLight: #dcd9d9;
 
 /*
     ---------------------
@@ -110,7 +112,7 @@ body {
             h3 {
                 font-size: 1.5em;
                 font-weight: 300;
-                color: $heading;
+                color: $headingDark;
                 display: inline-block;
                 margin: 0;
             }
@@ -199,16 +201,16 @@ header {
 }
 
 #menu {
-    background: #d15d6b;
+    background: #3b484e;
     &.active {
         display: block;
     }
     li {
         a{
-            color: #36f6ff;
+            color: #e7c9a5;
             &:hover {
                 font-weight: 600;
-                color: #393e46!important;
+                color: #fff!important;
                 background: none;
                 border-radius: 0;
             }
@@ -328,15 +330,15 @@ footer {
     display: inline-block;
     color: #fff;
     padding: 9px 25px;
-    border: 1px solid #d15d6b;
+    border: 1px solid #4a3a40;
     border-radius: 14px;
     box-shadow: black 0px 2px 18px;
-    background: $base-color-3;
+    background: #3b484e;
     @include transition();
 
-    &:hover {
-        color: $base-color-3;
-        background: #fff;
+    &:hover, &:focus, &:active {
+        color: #fff;
+        background: #937054;
         text-decoration: none;
     }
 }
@@ -352,7 +354,7 @@ footer {
 .heading {
     position: relative;
     display: inline-block;
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 300;
     margin: 0 0 30px 0;
 
@@ -387,7 +389,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../img/lead-bg1.jpg) center center no-repeat;
+    background: url(../img/Control_bg.jpg) center center no-repeat;
     padding: 15px;
     overflow: hidden;
 }
@@ -414,8 +416,9 @@ footer {
     }
 
     h2 {
-        text-shadow:#fff 0 0px 15px;
-        color: lighten($base-color-3, 1%);
+        text-shadow: #000 0 3px 11px;
+        color: #e2cba0;
+        /*color: lighten($base-color-3, 1%);*/
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -423,10 +426,10 @@ footer {
     a.btn-rounded-white{
         font-size: 1.4em;
     }
-    a.btn-rounded-white:focus, a.btn-rounded-white:active {
+    /*a.btn-rounded-white:focus, a.btn-rounded-white:active {
         color: #fff !important;
         text-decoration: underline;
-    }
+    }*/
 }
 
 #lead-overlay {
@@ -495,7 +498,7 @@ footer {
     border-bottom: 1px solid $border;
 
     h2 {
-        color: $heading;
+        color: $headingLight;
     }
 
     p {
@@ -518,7 +521,7 @@ footer {
     border-bottom: 1px solid $border;
 
     h2 {
-        color: $heading;
+        color: $headingDark;
     }
 }
 
@@ -563,15 +566,15 @@ footer {
     h3 {
         font-size: 1.5em;
         font-weight: 300;
-        color: $heading;
+        color: $headingDark;
         display: inline-block;
         margin: 0;
     }
 
     h4 {
-        font-size: 1.2em;
-        font-weight: 300;
-        color: #7e8890;
+        font-size: 1.1em;
+        font-weight: 400;
+        color: $base-color-3;
         margin: 0 0 15px 0;
     }
 
@@ -604,16 +607,21 @@ footer {
         font-size: 2em;
         margin-top: 10px;
     }
+    .fa-location-pin, .fa-stopwatch {
+        font-size: 25px;
+        margin-top: 13px;
+    }
 }
 
 .vtimeline-date {
     width: 260px;
     text-align: right;
     position: absolute;
-    left: 0;
-    top: 10px;
-    font-weight: 300;
-    color: #00ADB5;
+    left: 0;    
+    top: 14px;
+    font-weight: 400;
+    font-size: 15px;
+    color: $base-color;
 }
 
 /*
@@ -628,7 +636,7 @@ footer {
     text-align: center;
 
     h2 {
-        color: $heading;
+        color: $headingLight;
         margin-bottom: 50px;
     }
 }
@@ -641,19 +649,31 @@ footer {
     text-align: left;
 
     h3 {
-        font-weight: 500;
+        font-weight: 300;
         float: left;
         margin: 0;
-        color: $heading;
+        color: $headingLight;
     }
 
-    span {
-        color: $text;
+    .education-date {        
+        color: $headingLight;
+        font-weight: 300;
         float: right;
     }
 
+    .pdfs {   
+        display: inline-block; 
+        font-weight: 600;
+        a {
+            color: #e3b8b5;
+            font-weight: 300;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+    }
+
     h4 {
-        color: $text;
+        color: $textLight;
         clear: both;
         font-weight: 500;
         margin: 0 0 15px 0;
@@ -661,7 +681,7 @@ footer {
 
     p, ul {
         margin: 0;
-        color: $text;
+        color: $textLight;
         font-size: 0.9em;
     }
 
@@ -682,7 +702,7 @@ footer {
     text-align: center;
 
     h2 {
-        color: $heading;
+        color: $headingLight;
         margin-bottom: 50px;
     }
 }
@@ -700,6 +720,13 @@ footer {
     float: left;
     width: 300px;
     overflow: hidden;
+    &.bomberman {
+        img {
+            width: 373px;
+            margin: 0 -13% 0 -13%;
+        }
+    }
+
     img {
         width: 300px;
         padding: 37.5px 0;
@@ -717,7 +744,7 @@ footer {
     h3 {
         font-size: 1.5em;
         font-weight: 300;
-        color: $heading;
+        color: $headingDark;
         margin: 0 0 15px 0;
     }
 
@@ -729,6 +756,11 @@ footer {
         padding: 0px 25px;
         
     }
+    
+    a {
+        color: #4c8560;        
+    }
+
 }
 
 /*
@@ -742,7 +774,7 @@ footer {
     text-align: center;
 
     h2 {
-        color: $heading;
+        color: $headingDark;
         margin-bottom: 50px;
     }
 
@@ -757,7 +789,7 @@ footer {
         display: inline-block;
         margin: 7px;
         padding: 5px 10px;
-        color: $heading;
+        color: $headingLight;
         background: darken($background-alt, 5%);
         list-style: none;
         cursor: default;
@@ -773,7 +805,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $base-color;
+    background: #c5a7a5;
     text-align: center;
 
     h2 {
@@ -794,7 +826,7 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: darken($base-color, 15%);
+        background: darken(#ae7776, 1%);
         color: #fff;
         @include transition();
         @include placeholder {
@@ -803,7 +835,7 @@ footer {
 
         &:focus {
             outline: none;
-            background: darken($base-color, 25%);
+            background: darken(#ae7776, 5%);
         }
     }
 
@@ -819,7 +851,7 @@ footer {
         border-radius: 4px;
         padding: 5px 10px;
         border: none;
-        color: $base-color;
+        color: darken(#ae7776, 5%);
         font-weight: 700;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         @include transition();

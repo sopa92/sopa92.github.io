@@ -2,18 +2,21 @@
   designation:  Red Kite Games Ltd., UK
   date: Sep 2020 – Present
   descriptions: 
-    - <b>Technologies :</b> C++, Perforce, Azure DevOps, Microsoft Visual Studio
-    - Developing games practicing Agile methodologies
+    - <b>Technologies :</b> C++, Perforce, Unreal Engine, Microsoft Visual Studio
+    - Developing and prototyping games, practicing Agile methodologies
     - Porting games in consoles and streaming platforms
+    - <b>Released Games :</b> "Control Ultimate Edition" on <a href="https://stadia.google.com/u/0/store/details/2cdcb63bc3604360a157c4a4021eca35rcp1/sku/24eb3c7b5a9d44259c8d997bab233411p" target="_blank" >Google Stadia</a> (<a href="https://www.sumo-digital.com/news/red-kite-games-control-ultimate-edition-port-for-google-stadia-out-now" > announcement </a>)
 - name: Unity Developer
   designation:  Nosebleed Interactive Ltd., UK - Work Placement
   date: Apr 2020 – Aug 2020
   descriptions: 
     - <b>Technologies :</b> C#, Unity, Perforce, Trello, Microsoft Visual Studio
-    - Developing games practicing Agile methodologies
+    - Developing games, practicing Agile methodologies
     - Designing gameplay
     - Taking initiatives and organising my projects
-- name: Programmer
+    - <b>Released Games :</b> "The Pocket Arcade" on <a href="https://play.google.com/store/apps/details?id=com.rogue.arcade&hl=en_GB&gl=US" target="_blank" >Google Play</a> and on <a href="https://apps.apple.com/gb/app/the-pocket-arcade/id1511060371">App Store</a>
+    - <b>To be Released Games :</b> "Arcade Paradise" on <a href="https://store.steampowered.com/app/1388870/Arcade_Paradise/">Steam</a>
+- name: Web Developer
   designation:  Plaisio Computers S.A, Greece
   date: Nov 2015 – Jun 2019
   descriptions: 
@@ -21,8 +24,6 @@
     - Developing software applications practicing Agile methodologies
     - Administrating application &amp; database servers
     - Monitoring, maintaining and upgrading websites (www.plaisio.gr, www.plaisiopro.gr, www.buldoza.gr)
-    - Setting up third-party tracking code on the aforementioned websites (e.g. Google Analytics, Google Tag Manager)
-    - Developing and maintaining communication between web-applications and SAP
     - Researching for upcoming technology trends and new e-commerce solutions
     - Researching for optimization, performance, scalability and reliability of web applications
 - name: Web Developer

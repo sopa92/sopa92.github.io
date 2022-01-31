@@ -1,4 +1,4 @@
-<div id="education">
+<div id="education" class="background-alt">
     <h2 class="heading">Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h2>
     {% for college in site.data.education %}
     <div class="education-block">
@@ -13,7 +13,10 @@
                 <br/> <strong>Major</strong> : {{ college.major }} 
             {% endif %}            
             {% if college.thesis != null %}
-                <br/> <strong>Thesis</strong> : {{ college.thesis }}
+                <br/> <strong>Thesis</strong> : {{ college.thesis }}            
+                {% if college.pdfLink != null && if college.pptLink != null %}
+                    <span class="pdfs">( {{ college.pdfLink }} | {{ college.pptLink }} )</span>
+                {% endif %}
             {% endif %}
         </p>
         <p>

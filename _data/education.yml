@@ -2,6 +2,9 @@
   year: Sep 2019 – Sep 2020
   specialization: MSc in Computer Game Engineering
   grade: Pass with Distinction
+  thesis: Recreating Bomberman - Features, steps and challenges
+  pdfLink: <a href="./pdfs/Dissertation_SP.pdf" target="_blank">paper <i class="fa fa-paperclip" aria-hidden="true"></i></a>
+  pptLink: <a href="./pdfs/Presentation_SP.pdf" target="_blank">presentation <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></a>
   courses: 
     - Advanced Programming for Games
     - Advanced Graphics for Games
